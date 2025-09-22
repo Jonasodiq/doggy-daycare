@@ -1,16 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Catalog from './pages/Catalog';
+import DogDetail from './pages/DogDetail';
+import Header from './components/Header';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
-    <>
-      <h1>Home</h1>
-    </>
-  )
+    <div className="app-root">
+      <Header />
+      <main className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/dog/:id" element={<DogDetail />} />
+        </Routes>
+      </main>
+      <footer className="footer">Jonas N © Copyright 2025. All rights reserved</footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
