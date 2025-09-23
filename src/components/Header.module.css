@@ -1,0 +1,48 @@
+ 
+.header {
+  background: linear-gradient(90deg, #fff 0%, #f0fff0 100%);
+  padding: 12px 0;
+  box-shadow: 0 4px 8px rgba(209, 147, 147, 0.05);
+  border-radius: 16px;
+  text-align: start;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.brandBox {
+  display: flex;
+}
+
+.brand {
+  font-size: 1.5rem;
+}
+
+.brandImg {
+  height: 70px;
+  margin-top: 10px;
+}
+
+.brand a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.nav a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: var(--muted);
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.active {
+  background: var(--accent);
+  color: white;
+}

@@ -1,31 +1,38 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import logo from "../assets/images/logo.png";
+import styles from "./Header.module.css";
 
-export default function Header() {
-  const loc = useLocation();
+function Header() {
   return (
-    <header className="header">
-      <div className="header-inner">
-        <div className="brand-box">
-          <img src="/images/logo.png" alt="Logo" className="brand-img" />
-          <h1 className="brand">
-            <Link to="/">
-              Doggy<br></br>Daycare
-            </Link>
+    <header className={styles.header}>
+      <div className={styles.inner}>
+        <div className={styles.brandBox}>
+          <img src={logo} alt="Logo" className={styles.brandImg} />
+          <h1 className={styles.brand}>
+            <NavLink to="/">
+              Doggy<br />Daycare
+            </NavLink>
           </h1>
         </div>
-        <nav>
-          <Link className={loc.pathname === '/' ? 'active' : ''} to="/">
+        <nav className={styles.nav}>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) => (isActive ? styles.active : undefined)}
+          >
             Home
-          </Link>
-          <Link
-            className={loc.pathname.startsWith('/catalog') ? 'active' : ''}
+          </NavLink>
+          <NavLink
             to="/catalog"
+            className={({ isActive }) => (isActive ? styles.active : undefined)}
           >
             Katalog
-          </Link>
+          </NavLink>
         </nav>
       </div>
     </header>
   );
 }
+
+export default Header;
