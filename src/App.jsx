@@ -5,6 +5,7 @@ import Catalog from './pages/Catalog';
 import DogDetail from './pages/DogDetail';
 import Header from './components/Header';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
           <Route path="/dog/:id" element={<DogDetail />} />
         </Routes>
       </main>
-      <footer className="footer">Jonas N © Copyright 2025. All rights reserved</footer>
+     <Footer></Footer>
     </div>
   );
 }
