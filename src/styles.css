@@ -2,6 +2,8 @@
   --accent: rgb(107, 142, 35);
   --muted: #666;
   --bg: #dcf9f8;
+  --primary: #007bff;
+  --primary-dark: #0056b3;
 }
 
 * {
@@ -22,9 +24,22 @@ body {
   padding: 0 16px;
 }
 
- h1 {
-    font-size: 3rem;
-    margin: 1rem 0;
+h1 {
+  font-size: clamp(1.5rem, 6vw, 4rem);
+  color: #60c4da;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 4rem);
+}
+
+h3 {
+  font-size: clamp(.8rem, 2.3vw, 3rem);
+}
+
+p {
+  font-size: clamp(.5rem, 2vw, 1.25rem);
+  font-weight: 500;
 }
 
 .error {
