@@ -10,7 +10,7 @@ function Home() {
   return (
     <section className={styles.home}>
       <div className={styles.hero}>
-        <h1>Välkommen till<br />Doggy Daycare</h1>
+        <h1>Välkommen till<br/>Doggy Daycare</h1>
 
         <img
           src={dogs}
@@ -18,12 +18,12 @@ function Home() {
           className={styles.heroImage}
         />
         <p>
-          Vi tar hand om din hund när du är borta<br />
+          Vi tar hand om din hund när du är borta<br/>
           tryggt, lekfullt och säkert.
         </p>
 
         <Link to="/catalog" className={`${styles.btn} ${styles.large}`}>
-          Vår katalog med hundar
+          Våra hundar
         </Link>
       </div>
 
@@ -43,7 +43,7 @@ function Home() {
           alt="Skötare"
           className={styles.heroImage}
           />
-          <h3>Erfarna skötare</h3>
+          <h3 className={styles.title}>Erfarna skötare</h3>
           <p>Professionell personal med hundvana.</p>
         </div>
         <div className={styles.card}>

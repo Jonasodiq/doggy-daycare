@@ -55,8 +55,8 @@ function DogDetail() {
       <div className={styles.detailBody}>
         <h2>{dog.name}</h2>
         <p className={styles.meta}>
-          <strong>Ras:</strong> {dog.breed} <br />
-          <strong>Ålder:</strong> {dog.age} år <br />
+          <strong>Ras:</strong> {dog.breed} <br/>
+          <strong>Ålder:</strong> {dog.age} år <br/>
           <strong>Kön:</strong> {dog.sex === "male" ? "Hane" : "Tik"}
         </p>
 

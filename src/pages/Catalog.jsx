@@ -27,13 +27,14 @@ function Catalog() {
       {/* Filter */}
       <div className={styles.filters}>
         <input
+          className={styles.border}
           type="text"
           placeholder="Sök efter namn..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
 
-        <select value={breed} onChange={(e) => setBreed(e.target.value)}>
+        <select className={styles.border} value={breed} onChange={(e) => setBreed(e.target.value)}>
           <option value="">Alla raser</option>
           {breeds.map((b) => (
             <option key={b} value={b}>
@@ -42,7 +43,7 @@ function Catalog() {
           ))}
         </select>
 
-        <select value={size} onChange={(e) => setSize(e.target.value)}>
+        <select className={styles.border} value={size} onChange={(e) => setSize(e.target.value)}>
           <option value="">Alla storlekar</option>
           {sizes.map((s) => (
             <option key={s} value={s}>
@@ -51,7 +52,7 @@ function Catalog() {
           ))}
         </select>
 
-        <select value={age} onChange={(e) => setAge(e.target.value)}>
+        <select className={styles.border} value={age} onChange={(e) => setAge(e.target.value)}>
           <option value="">Alla åldrar</option>
           {ages.map((a) => (
             <option key={a} value={a}>
@@ -60,7 +61,7 @@ function Catalog() {
           ))}
         </select>
 
-        <select value={sex} onChange={(e) => setSex(e.target.value)}>
+        <select className={styles.border} value={sex} onChange={(e) => setSex(e.target.value)}>
           <option value="">Alla kön</option>
           <option value="female">Tik</option>
           <option value="male">Hane</option>
