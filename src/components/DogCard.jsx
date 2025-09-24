@@ -13,7 +13,7 @@ function DogCard({ dog }) {
         onError={(e) => { e.target.src = noDog }}
       />
       <div className={styles.body}>
-        <h3>{dog.name}</h3>
+        <h2>{dog.name}</h2>
         <p className={styles.meta}>
           <strong>Ras:</strong> {dog.breed} • <strong>Ålder:</strong> {dog.age} år
         </p>
