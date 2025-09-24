@@ -6,9 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
-        <p className={styles.copy}>
-          Doggy Daycare © Copyright {new Date().getFullYear()}.<br></br> All rights reserved.
-        </p>
+        
         <nav className={styles.nav}>
           <NavLink to="/" end className={({ isActive }) => isActive ? styles.active : undefined}>
             Home
@@ -17,9 +15,12 @@ function Footer() {
             Katalog
           </NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? styles.active : undefined}>
-            Om oss
+            About
           </NavLink>
         </nav>
+        <p className={styles.copy}>
+          Jonas N © Copyright {new Date().getFullYear()}.<br/> All rights reserved.
+        </p>
       </div>
     </footer>
   );
