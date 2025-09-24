@@ -15,7 +15,7 @@
 }
 
 .copy {
-  font-size: clamp(.2rem, 1.5vw, 3rem);
+  font-size: clamp(.3rem, 1vw, 2rem);
   color: var(--muted);
   margin: 0;
 }
@@ -27,7 +27,7 @@
 
 .nav a {
   text-decoration: none;
-  font-size: clamp(.3rem, 2vw, 3rem);
+  font-size: clamp(.3rem, 1.3vw, 2rem);
   padding: 4px 8px;
   border-radius: 6px;
   /* transition: background 0.2s; */
