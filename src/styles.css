@@ -19,9 +19,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  margin: 22px auto;
-  padding: 0 16px;
+  margin: 3rem 0;
 }
 
 h1 {
@@ -30,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1rem, 3vw, 4rem);
+  font-size: clamp(1.3rem, 2vw, 2rem);
 }
 
 h3 {

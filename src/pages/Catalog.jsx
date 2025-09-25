@@ -22,7 +22,7 @@ function Catalog() {
 
   return (
     <section className={styles.catalog}>
-      <h1>Hundkatalog</h1>
+      <h1>Katalog</h1>
 
       {/* Filter */}
       <div className={styles.filters}>

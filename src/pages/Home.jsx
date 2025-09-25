@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import dogs from "../assets/images/dogs.jpg";
 import giacomo from "../assets/images/giacomo.jpg";
 import daycare from '../assets/images/daycare.jpg'
+import boll from '../assets/images/boll.jpg'
 import tuc from '../assets/images/ddg.avif'
 import styles from './Home.module.css'
 
@@ -39,12 +40,15 @@ function Home() {
         </div>
         <div className={styles.card}>
           <img
-          src={tuc}
+          src={boll}
           alt="Skötare"
           className={styles.heroImage}
           />
-          <h3 className={styles.title}>Erfarna skötare</h3>
+          <div>
+
+          <h3>Erfarna skötare</h3>
           <p>Professionell personal med hundvana.</p>
+          </div>
         </div>
         <div className={styles.card}>
           <img

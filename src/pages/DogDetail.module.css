@@ -1,11 +1,11 @@
 .dogDetail {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 18px;
+  gap: 20px;
   background: white;
   padding: 18px;
   border-radius: 1.5rem;
-  box-shadow: 0 6px 16px rgba(50, 50, 93, 0.06);
+  box-shadow: 2px 6px 16px rgba(50, 50, 93, 0.3);
 }
 
 .detailPhoto {
