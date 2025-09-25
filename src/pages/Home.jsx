@@ -40,7 +40,7 @@ function Home() {
         </div>
         <div className={styles.card}>
           <img
-          src={boll}
+          src={daycare}
           alt="Skötare"
           className={styles.heroImage}
           />
@@ -52,8 +52,8 @@ function Home() {
         </div>
         <div className={styles.card}>
           <img
-          src={daycare}
-          alt="Skötare"
+          src={boll}
+          alt="Aktivitet"
           className={styles.heroImage}
           />
           <h3>Roliga aktiviteter</h3>
