@@ -1,12 +1,57 @@
-# React + Vite
+# 🐶 Doggy Daycare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application for a fictional dog daycare where you can explore dogs in a catalog, filter by different criteria, and view individual details.  
+Live demo: [Doggy Daycare on GitHub Pages](https://jonasodiq.github.io/doggy-daycare/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Home page with welcome text and business information  
+- Catalog of dogs with filters (name, breed, size, age, sex)  
+- Detail pages for each dog  
+- About page with description and image  
+- Dynamic data fetched from an external API  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with React Router)  
+- **Custom hooks** for data fetching and filtering  
+- **CSS Modules** for component-based styling  
+- **GitHub Pages** for deployment  
+
+---
+
+## 📦 Installation
+
+To run the project locally:  
+
+```bash
+# Clone the repo
+git clone https://github.com/jonasodiq/doggy-daycare.git
+
+# Go into the folder
+cd doggy-daycare
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+## 📸 Screenshots
+
+### Home
+![Home page](./assets/images/home.png)
+
+### Catalog
+![Catalog page](./assets/images/catalog.png)
+
+### Dog detail
+![Dog detail page](./assets/images/dog-detail.png)
+
+# License
+
+This project is open source and free to use.
