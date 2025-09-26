@@ -44,13 +44,13 @@ npm start
 ## 📸 Screenshots
 
 ### Home
-![Home page](https://github.com/Jonasodiq/doggy-daycare/blob/main/src/assets/images/home.png)
+![Login-form-app](https://github.com/Jonasodiq/doggy-daycare/blob/main/src/assets/images/home.png)
 
 ### Catalog
-![Catalog page](https://github.com/Jonasodiq/doggy-daycare/blob/main/src/assets/images/catalog.png)
+![Login-form-app](https://github.com/Jonasodiq/doggy-daycare/blob/main/src/assets/images/catalog.png)
 
 ### Dog detail
-![Dog detail page](https://github.com/Jonasodiq/doggy-daycare/blob/main/src/assets/images/detail.png)
+![Login-form-app](https://github.com/Jonasodiq/doggy-daycare/blob/main/src/assets/images/detail.png)
 
 # License
 
