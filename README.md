@@ -1,5 +1,3 @@
-![Status](https://img.shields.io/badge/Status-Work_in_Progress-yellow)
-![Feedback](https://img.shields.io/badge/Feedback-Welcome-blue)
 
 # 🐶 Doggy Daycare
 
