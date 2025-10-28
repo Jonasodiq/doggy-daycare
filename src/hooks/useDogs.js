@@ -49,9 +49,10 @@ export function useDogs({ search, breed, size, age, sex }) {
   }, [dogs, search, breed, size, age, sex]);
 
   // unika värden för filtrering
-  const breeds = [...new Set(dogs.map((d) => d.breed).filter(Boolean))];
-  const sizes = [...new Set(dogs.map((d) => d.size).filter(Boolean))];
-  const ages = [...new Set(dogs.map((d) => d.age).filter(Boolean))];
+  const breeds = [...new Set(dogs.map((d) => d.breed).filter(Boolean))].sort();
+  const sizes = [...new Set(dogs.map((d) => d.size).filter(Boolean))].sort();
+  const ages = [...new Set(dogs.map((d) => d.age).filter(Boolean))].sort((a, b) => a - b);
+
 
   return { dogs, filteredDogs, breeds, sizes, ages, loading, error };
 }
