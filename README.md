@@ -1,46 +1,57 @@
+![Status](https://img.shields.io/badge/Status-Work_in_Progress-yellow)
+![Feedback](https://img.shields.io/badge/Feedback-Welcome-blue)
+
 # 🐶 Doggy Daycare
 
-A React application for a fictional dog daycare where you can explore dogs in a catalog, filter by different criteria, and view individual details.  
-Live demo: [Doggy Daycare on GitHub Pages](https://jonasodiq.github.io/doggy-daycare/)
+Welcome to Doggy Daycare. A friendly React web app for a fictional dog daycare where visitors can browse a dog catalog, filter by different criteria, and view each dog in detail.
+
+🔗 **Live demo:** https://jonasodiq.github.io/doggy-daycare/
 
 ---
 
 ## 🚀 Features
 
-- Home page with welcome text and business information  
-- Catalog of dogs with filters (name, breed, size, age, sex)  
-- Detail pages for each dog  
-- About page with description and image  
-- Dynamic data fetched from an external API  
-
+- Home page with introduction and business info  
+- Catalog with search and live filtering  
+- Individual dog detail pages  
+- About page with text and image  
+- Data loaded dynamically from an external API  
+ 
 ---
 
 ## 🛠️ Tech Stack
 
-- **React** (with React Router)  
-- **Custom hooks** for data fetching and filtering  
-- **CSS Modules** for component-based styling  
-- **GitHub Pages** for deployment  
+| Category      | Tools                     |
+|---------------|---------------------------|
+| Framework     | React (with React Router) |
+| State & Logic | Custom hooks              |
+| Styling       | CSS Modules               |
+| Deployment    | GitHub Pages              |
+| Data          | External JSON API         |
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Development
 
-To run the project locally:  
+To run the project locally:
 
+### Clone the repo
 ```bash
-# Clone the repo
 git clone https://github.com/jonasodiq/doggy-daycare.git
-
-# Go into the folder
+```
+### Go into the folder
+```bash
 cd doggy-daycare
-
-# Install dependencies
+```
+### Install dependencies
+```bash
 npm install
-
-# Start development server
+```
+### Start development server
+```bash
 npm start
 ```
+---
 
 ## 📸 Screenshots
 
@@ -52,6 +63,14 @@ npm start
 
 ### Dog detail
 ![Detail](./screenshots/detail.png)
+
+---
+
+## 💬 Feedback
+
+> ✨ **This project is a work in progress and new features are coming. Feel free to share feedback and ideas!** 
+
+---
 
 # License
 
