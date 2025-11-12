@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import dogs from "../assets/images/dogs.jpg";
+import dogs from "../assets/images/original.jpg";
 import giacomo from "../assets/images/giacomo.jpg";
 import daycare from '../assets/images/daycare.jpg';
 import boll from '../assets/images/boll.jpg';
@@ -10,18 +10,12 @@ function Home() {
     <section className={styles.home}>
       <div className={styles.inner}>
         <div className={styles.hero}>
-          <h1>Välkommen till<br/>Doggy Daycare</h1>
-
+          <h1>Doggy Daycare</h1>
           <img
             src={dogs}
             alt="Glada hundar på Doggy Daycare"
             className={styles.heroImage}
           />
-          <p>
-            Vi tar hand om din hund när du är borta<br/>
-            tryggt, lekfullt och säkert.
-          </p>
-
           <Link to="/catalog" className={`${styles.btn} ${styles.large}`}>
             Våra hundar
           </Link>
